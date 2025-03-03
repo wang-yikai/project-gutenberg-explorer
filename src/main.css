@@ -1,0 +1,11 @@
+body {
+    background-color: #fafafa;
+}
+
+.ant-space-compact {
+    width: 100%;
+}
+
+.ant-modal-title {
+    border-bottom: var(--ant-line-width) var(--ant-line-type) var(--ant-color-border);
+}
