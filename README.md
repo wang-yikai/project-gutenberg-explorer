@@ -2,6 +2,10 @@
 
 A single-page React application that lets you find, view, and analyze public-domain books from Project Gutenberg. It uses the [Gutendex API](https://gutendex.com/) for searching by title, author, or ID, plus Ant Design (AntD) for a clean, consistent UI. Summaries and additional text analysis are handled by an LLM, with a chunking approach for large texts and a built-in cooldown to avoid rate limits.
 
+### Public App
+
+[https://project-gutenberg-explorer-yikai-wangs-projects.vercel.app/](https://project-gutenberg-explorer-yikai-wangs-projects.vercel.app/)
+
 ## Installation
 
 1. **Clone the repository** (or download the source code):
