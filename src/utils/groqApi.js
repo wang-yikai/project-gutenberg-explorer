@@ -15,7 +15,12 @@ const getResponse = async (content, onError) =>
       ],
     }),
   })
-    .then((response) => response.json())
+    .then((response) => {
+      if (!response.ok) {
+        throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+      }
+      return response.json();
+    })
     .catch((error) => onError(error));
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
